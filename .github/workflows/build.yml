@@ -19,6 +19,6 @@ jobs:
       uses: docker/build-push-action@v1  
       with:       
        username: ${{ secrets.sheepy277353}} 
-       password:  ${{ secrets.277353BirbyTulo}}
+       password:  ${{ secrets.dckr_pat_67V1K5BmqN-P5-6qjc_EqNpxnGM}}
        repository: lmilt95/fti       
        tags: ${{github.run_number}}
